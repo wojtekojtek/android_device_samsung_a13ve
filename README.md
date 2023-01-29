@@ -1,4 +1,4 @@
-## Recovery Device Tree for the Samsung Galaxy A13 - SM-A137F (MTK)
+## Recovery Device Tree for the Samsung Galaxy A13 - SM-A137F (MTK) - TESTING
 
 ## How-to compile it:
 
@@ -9,10 +9,10 @@ $ mkdir tw; cd tw
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
 
 # Clone a13ve repo
-$ git clone https://github.com/edward0181/android_device_samsung_a13ve device/samsung/a13ve
+$ git clone https://github.com/wojtekojtek/android_device_samsung_a13ve device/samsung/a13ve
 
 # Clone a13ve kernel
-$ git clone https://github.com/edward0181/android_kernel_samsung_a13ve kernel/samsung/a13ve
+$ git clone https://github.com/wojtekojtek/android_kernel_samsung_a13ve kernel/samsung/a13ve
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
