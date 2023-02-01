@@ -1,5 +1,8 @@
 ## Recovery Device Tree for the Samsung Galaxy A13 - SM-A137F (MTK) - TESTING
 
+#Credits:
+Edward0181
+
 ## How-to compile it:
 
 # Create dirs
